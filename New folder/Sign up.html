@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign</title>
+</head>
+<link rel="stylesheet" href="sign up.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<body> <div class="sign">
+     <div class="img1">
+        <h1 class="dis">Discovering the Best <br>Design For Your Website</h1>
+       <b> <p>Our Practice Is Designing you the most sertifing  <br> 
+        Website you could Ever Dream of</p></b>
+    </div>
+        <div class="lo">
+        <button class="but1">Sign up here</button>
+        <input class="Name" type="text" id="thename" placeholder="Name">
+        <input class="Email" type="text" id="themail" placeholder="Email">
+        <input class="pass"  id="themsg" placeholder="Password">
+        <input class="confarm" type="password" placeholder="Confarm password">
+        <button class="but2" onCLick="sendemail();">Send</button>
+       
+       <h2 class="uyt"> Already have an account? <a href="BRY.html">Log in</a>     
+</div></div>
+<script>
+    function sendemail() {
+      var userid = "ZH5g-Wz-0YNeNONBy"
+      emailjs.init(userid);
+      var thename = document.getElementById('thename').value;
+      var themail = document.getElementById('themail').value;
+      var themsg = document.getElementById('themsg').value;
+      var validmail = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+      if (thename == "") {
+        alert("Please Enter Name");
+      }
+      else if (themail == "" || themail.match(!validmail)) {
+        alert("Please Enter Valid Email");
+      }
+
+      else if (themsg == "") {
+        alert("Please Enter Message");
+      }
+      else {
+        var contactdetail = {
+          from_name: thename,
+          from_email: themail,
+          message: themsg
+        };
+
+        emailjs.send('service_krbyv63', 'template_or7jkzr', contactdetail).then(function (res) {
+           location.reload()
+           alert("Email Sent Successfully")},
+          reason => {
+            alert("Error Occur");
+          })
+      }
+    }
+  </script>
+</body>
+</html>

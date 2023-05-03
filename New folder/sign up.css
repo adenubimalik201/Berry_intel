@@ -1,0 +1,161 @@
+.Name{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(40, 125, 131);
+    font-size: large;
+    margin-top: 40px;
+    padding: 0px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+}
+.Email{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 99, 99);
+    font-size: large;
+    margin-top: 30px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+
+}
+.img{
+    background-image: url(/bry/download\ \(2\).jfif);
+    width: 10rem;
+    height: 20rem;
+}
+.but1{
+    background-color: transparent;
+    width: 22rem;
+    height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(16, 97, 97, 0.493);
+    font-size: large;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    margin-top: 60px;
+    border: none;
+}
+.but2{
+    background-color: transparent;
+    width: 22rem;
+    height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    backdrop-filter: blur(2px);
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.uyt{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.uyt a{
+    text-decoration: none;
+    color: rgb(23, 235, 235);
+   
+}
+.lo{
+    background-color: rgba(0, 255, 255, 0.233);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 30rem;
+    height: 37rem;
+    border-radius: 20px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 3rem;
+}
+.sign{
+    display: flex;
+}
+.pass{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 110, 110);
+    font-size: large;
+    margin-top: 30px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+}
+.confarm{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 99, 99);
+    font-size: large;
+    margin-top: 30px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+}
+.but2:hover{
+    background-color: aqua;
+    color: rgb(201, 199, 199);
+    border-bottom: 5px solid #08000033;
+}
+.dis{
+    font-size: 20px;
+    color: white;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(33, 85, 85);
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+.sign{
+    display: flex;
+}
+body{
+    background-image: url(/bry/23Z_mar13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.img1 h1{
+    margin-bottom: 400px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+}
+.img1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    width: 70rem;
+    height: 40rem;
+    margin-bottom: -20px;
+    background-image: url(/bry/wepik-export-20230419122149.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.but2 a{
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.507);
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}

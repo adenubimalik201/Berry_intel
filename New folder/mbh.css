@@ -1,0 +1,135 @@
+html body{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/bry/23Z_mar13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    display: flex;
+    height: 4rem;
+    margin-left: 10px;
+}
+.hold{
+    display: flex;
+    font-size: 2rem;
+}
+
+.hold li a{
+    text-decoration: none;
+    color: white;
+
+}
+.hold li{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: -11px;
+}
+.bry{
+    color: white;
+    margin-left: 4px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 0 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hold li a:hover{
+    color: aquamarine;
+    backdrop-filter: blur(30px);
+    
+}
+.sch{
+    background: transparent;
+    font-family: Arial;
+    outline-color: azure;
+    height: 1.8rem;
+    color: white;
+    font-style: bold;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding-left: 10px;
+}
+.btn{
+    background-color: aqua;
+    color: white;
+    font-style: bold;
+    outline-color: aqua;
+    width: 5rem;
+    height: 1.8rem;
+    margin-left: -10px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+.heading{
+    margin-bottom: -100px;
+    color: white;
+}
+.lo{
+    background-color: rgba(0, 255, 255, 0.315);
+    backdrop-filter: blur(10px);
+    height: 28rem;
+    width: 25rem;
+    border-radius: 20px;
+    margin-top: 170px;
+    margin-left: 187px;
+    background-position: fixed;
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.253);
+    box-shadow: rgba(0, 0, 0, 0.781);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 30px 30px;
+}
+.one{
+    background-image: url(/wepik-export-20230419122149.png);
+    height: 40rem;
+    width: 100rem;
+    /* margin-top: 20px; */
+    background-size: 60rem ;
+    background-repeat: no-repeat;
+    margin-left: -250px;
+    margin-top: 22px;
+}
+.two2{
+    width: 100rem;
+    height: 20rem;
+    background-color: transparent;
+}
+.all1{
+    display: flex;
+}
+.one2{
+    font-family: From Cartoon Blocks;
+    font-size: 50px;
+    margin-right: 200px;
+    margin-top: 150px;
+    color: rgba(0, 0, 0, 0.568);
+}
+

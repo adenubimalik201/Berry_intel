@@ -1,0 +1,202 @@
+html body{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/bry/23Z_mar13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    animation-name: me;
+}
+
+.two{
+    display: flex;
+    height: 4rem;
+    margin-left: 10px;
+}
+.hold{
+    display: flex;
+    font-size: 2rem;
+}
+
+.hold li a{
+    text-decoration: none;
+    color: white;
+
+}
+.hold li{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: -11px;
+}
+.bry{
+    margin-left: 4px;
+    font-size: 30px;
+    font-family: From Cartoon Blocks;
+    color: rgb(14, 83, 83);
+}
+li{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 0 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hold li a:hover{
+    border-bottom: 4px solid rgba(0, 8, 6, 0.205);
+    border-radius: 0.5px; 
+}
+.sch{
+    background: transparent;
+    font-family: Arial;
+    outline-color: azure;
+    height: 1.8rem;
+    color: white;
+    font-style: bold;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding-left: 10px;
+}
+.btn{
+    background-color: aqua;
+    color: white;
+    font-style: bold;
+    outline-color: aqua;
+    width: 5rem;
+    height: 1.8rem;
+    margin-left: -10px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 100px;
+    margin-top: -27px;
+}
+.heading{
+    margin-bottom: -100px;
+    color: white;
+}
+.lo{
+    background-color: rgba(0, 255, 255, 0.315);
+    backdrop-filter: blur(10px);
+    height: 28rem;
+    width: 25rem;
+    border-radius: 20px;
+    margin-top: 170px;
+    margin-left: 187px;
+    background-position: fixed;
+    text-align: center;
+    animation-name: me ;
+    animation-duration: 5s;
+    animation-iteration-count: 1000;
+}
+input::placeholder{
+    color: white;
+}
+@keyframes me {
+    from {backgroung-color:rgba(0, 255, 255, 0.315);}
+    to {background-color: rgba(1, 204, 255, 0.603);}
+  }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(33, 182, 241, 0.61),rgba(33, 132, 150, 0.39));
+    box-shadow: rgba(0, 0, 0, 0.781);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 30px 30px;
+}
+.email{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: large;
+    margin-top: 40px;
+    padding: 0px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+}
+.pass{
+    background-color: transparent;
+    width: 22rem;
+    height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-size: large;
+    margin-top: 30px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline-color: white;
+
+}
+.but1{
+    background-color: rgba(255, 255, 255, 0.363);
+    width: 22rem;
+    height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(16, 97, 97, 0.493);
+    font-size: large;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    margin-top: 60px;
+    border: none;
+}
+.but2{
+    background-color: rgba(38, 116, 109, 0.63);
+    width: 22rem;
+    height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    backdrop-filter: blur(2px);
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+h2 a{
+    text-decoration: none;
+    color: rgb(7, 86, 88);
+}
+.web{
+   margin-top: 200px;
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   margin-left: 10px;
+}
+.body{
+    display: flex;
+}
+.but2:hover{
+    color: aqua;
+    background-color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: aqua;
+}
+h2 a:hover{
+    color: aqua;
+}
